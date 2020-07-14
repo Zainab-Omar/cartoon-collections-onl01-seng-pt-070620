@@ -15,3 +15,5 @@ def long_planeteer_call(array_calls)
   array_calls.any? {|calls| calls>4}
 end
 
+def find_the_cheese(cheese)
+end
