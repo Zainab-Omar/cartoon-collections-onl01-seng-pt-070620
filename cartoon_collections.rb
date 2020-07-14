@@ -13,11 +13,8 @@ end
 
 def long_planeteer_call(array_calls)
   array_calls.find do |calls|
-    if calls.length>4
+   calls.length>4
       false
-    else
-      true
-    end
   end
 end
 
