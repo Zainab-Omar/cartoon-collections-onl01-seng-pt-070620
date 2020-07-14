@@ -1,4 +1,6 @@
 def roll_call_dwarves(array_of_dwarf_names)
+  new_array=[]
+  array_of_dwarf_names.each_with_index do |name, inde
   
 end
 
