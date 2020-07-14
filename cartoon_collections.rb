@@ -17,6 +17,8 @@ end
 
 #long_planeteer_calls(planeteer_calls)
 
-def find_the_cheese(cheese)
+def find_the_cheese(cheese_item)
   cheeses =[gouda cheddar camembert]
+  cheese_item.include? do |mybe_cheese|
+    
 end
