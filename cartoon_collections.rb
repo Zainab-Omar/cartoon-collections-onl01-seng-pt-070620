@@ -6,7 +6,9 @@ def roll_call_dwarves(array_of_dwarf_names)
 
 
 def summon_captain_planet(planeteer_calls)
-  
+  planeteer_calls.collect do |planeteer|
+    planeteer.upcase
+  end
 end
 
 def long_planeteer_calls# code an argument here
